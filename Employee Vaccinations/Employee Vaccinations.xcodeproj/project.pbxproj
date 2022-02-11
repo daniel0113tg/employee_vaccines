@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		969FEDC627B6029E00D99258 /* Employee_VaccinationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDC527B6029E00D99258 /* Employee_VaccinationsApp.swift */; };
+		969FEDCA27B602A000D99258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969FEDC927B602A000D99258 /* Assets.xcassets */; };
+		969FEDCD27B602A000D99258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969FEDCC27B602A000D99258 /* Preview Assets.xcassets */; };
+		969FEDCF27B602A000D99258 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDCE27B602A000D99258 /* Persistence.swift */; };
+		969FEDD227B602A000D99258 /* Employee_Vaccinations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDD027B602A000D99258 /* Employee_Vaccinations.xcdatamodeld */; };
+		969FEDD927B6037A00D99258 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDD827B6037A00D99258 /* LoginView.swift */; };
+		969FEDDF27B60DF900D99258 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDDE27B60DF900D99258 /* EmployeeView.swift */; };
+		969FEDE327B60E5E00D99258 /* VaccineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDE227B60E5E00D99258 /* VaccineView.swift */; };
+		969FEDE527B60E6E00D99258 /* ListVaccineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDE427B60E6E00D99258 /* ListVaccineView.swift */; };
+		969FEDE727B60EB800D99258 /* EmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDE627B60EB800D99258 /* EmployeeListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		969FEDC227B6029E00D99258 /* Employee Vaccinations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Employee Vaccinations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969FEDC527B6029E00D99258 /* Employee_VaccinationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_VaccinationsApp.swift; sourceTree = "<group>"; };
+		969FEDC927B602A000D99258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969FEDCC27B602A000D99258 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		969FEDCE27B602A000D99258 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		969FEDD127B602A000D99258 /* Employee_Vaccinations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Employee_Vaccinations.xcdatamodel; sourceTree = "<group>"; };
+		969FEDD827B6037A00D99258 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		969FEDDE27B60DF900D99258 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
+		969FEDE227B60E5E00D99258 /* VaccineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineView.swift; sourceTree = "<group>"; };
+		969FEDE427B60E6E00D99258 /* ListVaccineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVaccineView.swift; sourceTree = "<group>"; };
+		969FEDE627B60EB800D99258 /* EmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969FEDBF27B6029D00D99258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		969FEDB927B6029D00D99258 = {
+			isa = PBXGroup;
+			children = (
+				969FEDC427B6029E00D99258 /* Employee Vaccinations */,
+				969FEDC327B6029E00D99258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		969FEDC327B6029E00D99258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969FEDC227B6029E00D99258 /* Employee Vaccinations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		969FEDC427B6029E00D99258 /* Employee Vaccinations */ = {
+			isa = PBXGroup;
+			children = (
+				969FEDE627B60EB800D99258 /* EmployeeListView.swift */,
+				969FEDC527B6029E00D99258 /* Employee_VaccinationsApp.swift */,
+				969FEDD827B6037A00D99258 /* LoginView.swift */,
+				969FEDDE27B60DF900D99258 /* EmployeeView.swift */,
+				969FEDE227B60E5E00D99258 /* VaccineView.swift */,
+				969FEDE427B60E6E00D99258 /* ListVaccineView.swift */,
+				969FEDC927B602A000D99258 /* Assets.xcassets */,
+				969FEDCE27B602A000D99258 /* Persistence.swift */,
+				969FEDD027B602A000D99258 /* Employee_Vaccinations.xcdatamodeld */,
+				969FEDCB27B602A000D99258 /* Preview Content */,
+			);
+			path = "Employee Vaccinations";
+			sourceTree = "<group>";
+		};
+		969FEDCB27B602A000D99258 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				969FEDCC27B602A000D99258 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969FEDC127B6029D00D99258 /* Employee Vaccinations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969FEDD527B602A000D99258 /* Build configuration list for PBXNativeTarget "Employee Vaccinations" */;
+			buildPhases = (
+				969FEDBE27B6029D00D99258 /* Sources */,
+				969FEDBF27B6029D00D99258 /* Frameworks */,
+				969FEDC027B6029D00D99258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Employee Vaccinations";
+			productName = "Employee Vaccinations";
+			productReference = 969FEDC227B6029E00D99258 /* Employee Vaccinations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969FEDBA27B6029D00D99258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					969FEDC127B6029D00D99258 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 969FEDBD27B6029D00D99258 /* Build configuration list for PBXProject "Employee Vaccinations" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 969FEDB927B6029D00D99258;
+			productRefGroup = 969FEDC327B6029E00D99258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969FEDC127B6029D00D99258 /* Employee Vaccinations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969FEDC027B6029D00D99258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969FEDCD27B602A000D99258 /* Preview Assets.xcassets in Resources */,
+				969FEDCA27B602A000D99258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		969FEDBE27B6029D00D99258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969FEDE727B60EB800D99258 /* EmployeeListView.swift in Sources */,
+				969FEDE527B60E6E00D99258 /* ListVaccineView.swift in Sources */,
+				969FEDE327B60E5E00D99258 /* VaccineView.swift in Sources */,
+				969FEDCF27B602A000D99258 /* Persistence.swift in Sources */,
+				969FEDC627B6029E00D99258 /* Employee_VaccinationsApp.swift in Sources */,
+				969FEDD927B6037A00D99258 /* LoginView.swift in Sources */,
+				969FEDDF27B60DF900D99258 /* EmployeeView.swift in Sources */,
+				969FEDD227B602A000D99258 /* Employee_Vaccinations.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		969FEDD327B602A000D99258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		969FEDD427B602A000D99258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		969FEDD627B602A000D99258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Employee Vaccinations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieltacog.Employee-Vaccinations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		969FEDD727B602A000D99258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Employee Vaccinations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieltacog.Employee-Vaccinations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		969FEDBD27B6029D00D99258 /* Build configuration list for PBXProject "Employee Vaccinations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969FEDD327B602A000D99258 /* Debug */,
+				969FEDD427B602A000D99258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969FEDD527B602A000D99258 /* Build configuration list for PBXNativeTarget "Employee Vaccinations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969FEDD627B602A000D99258 /* Debug */,
+				969FEDD727B602A000D99258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		969FEDD027B602A000D99258 /* Employee_Vaccinations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				969FEDD127B602A000D99258 /* Employee_Vaccinations.xcdatamodel */,
+			);
+			currentVersion = 969FEDD127B602A000D99258 /* Employee_Vaccinations.xcdatamodel */;
+			path = Employee_Vaccinations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 969FEDBA27B6029D00D99258 /* Project object */;
+}
