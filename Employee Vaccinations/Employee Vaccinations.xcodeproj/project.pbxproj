@@ -17,6 +17,14 @@
 		969FEDE327B60E5E00D99258 /* VaccineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDE227B60E5E00D99258 /* VaccineView.swift */; };
 		969FEDE527B60E6E00D99258 /* ListVaccineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDE427B60E6E00D99258 /* ListVaccineView.swift */; };
 		969FEDE727B60EB800D99258 /* EmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDE627B60EB800D99258 /* EmployeeListView.swift */; };
+		969FEDE927B781B800D99258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDE827B781B800D99258 /* ViewController.swift */; };
+		969FEDF227B783EE00D99258 /* VaccineOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDF127B783EE00D99258 /* VaccineOptions.swift */; };
+		969FEDF527B784D900D99258 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDF427B784D900D99258 /* LoginController.swift */; };
+		969FEDF827B7880000D99258 /* UserEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDF727B7880000D99258 /* UserEntity+CoreDataClass.swift */; };
+		969FEDFA27B7881300D99258 /* UserEntity+CoreDaraProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDF927B7881300D99258 /* UserEntity+CoreDaraProperties.swift */; };
+		969FEDFC27B78A4400D99258 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEDFB27B78A4400D99258 /* DatabaseManager.swift */; };
+		969FEE0327B8119600D99258 /* ListEmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEE0227B8119600D99258 /* ListEmployeesViewController.swift */; };
+		969FEE0527B8140000D99258 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEE0427B8140000D99258 /* EmployeeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +39,14 @@
 		969FEDE227B60E5E00D99258 /* VaccineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineView.swift; sourceTree = "<group>"; };
 		969FEDE427B60E6E00D99258 /* ListVaccineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVaccineView.swift; sourceTree = "<group>"; };
 		969FEDE627B60EB800D99258 /* EmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListView.swift; sourceTree = "<group>"; };
+		969FEDE827B781B800D99258 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		969FEDF127B783EE00D99258 /* VaccineOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineOptions.swift; sourceTree = "<group>"; };
+		969FEDF427B784D900D99258 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		969FEDF727B7880000D99258 /* UserEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		969FEDF927B7881300D99258 /* UserEntity+CoreDaraProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDaraProperties.swift"; sourceTree = "<group>"; };
+		969FEDFB27B78A4400D99258 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		969FEE0227B8119600D99258 /* ListEmployeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEmployeesViewController.swift; sourceTree = "<group>"; };
+		969FEE0427B8140000D99258 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,9 @@
 		969FEDB927B6029D00D99258 = {
 			isa = PBXGroup;
 			children = (
+				969FEDF627B7857900D99258 /* Views */,
+				969FEDF327B784C300D99258 /* View Controllers */,
+				969FEDEA27B7832A00D99258 /* Models */,
 				969FEDC427B6029E00D99258 /* Employee Vaccinations */,
 				969FEDC327B6029E00D99258 /* Products */,
 			);
@@ -63,12 +82,8 @@
 		969FEDC427B6029E00D99258 /* Employee Vaccinations */ = {
 			isa = PBXGroup;
 			children = (
-				969FEDE627B60EB800D99258 /* EmployeeListView.swift */,
+				969FEDFB27B78A4400D99258 /* DatabaseManager.swift */,
 				969FEDC527B6029E00D99258 /* Employee_VaccinationsApp.swift */,
-				969FEDD827B6037A00D99258 /* LoginView.swift */,
-				969FEDDE27B60DF900D99258 /* EmployeeView.swift */,
-				969FEDE227B60E5E00D99258 /* VaccineView.swift */,
-				969FEDE427B60E6E00D99258 /* ListVaccineView.swift */,
 				969FEDC927B602A000D99258 /* Assets.xcassets */,
 				969FEDCE27B602A000D99258 /* Persistence.swift */,
 				969FEDD027B602A000D99258 /* Employee_Vaccinations.xcdatamodeld */,
@@ -83,6 +98,39 @@
 				969FEDCC27B602A000D99258 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		969FEDEA27B7832A00D99258 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				969FEDF127B783EE00D99258 /* VaccineOptions.swift */,
+				969FEDF727B7880000D99258 /* UserEntity+CoreDataClass.swift */,
+				969FEDF927B7881300D99258 /* UserEntity+CoreDaraProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		969FEDF327B784C300D99258 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				969FEDE827B781B800D99258 /* ViewController.swift */,
+				969FEDF427B784D900D99258 /* LoginController.swift */,
+				969FEE0227B8119600D99258 /* ListEmployeesViewController.swift */,
+				969FEE0427B8140000D99258 /* EmployeeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		969FEDF627B7857900D99258 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				969FEDE627B60EB800D99258 /* EmployeeListView.swift */,
+				969FEDD827B6037A00D99258 /* LoginView.swift */,
+				969FEDDE27B60DF900D99258 /* EmployeeView.swift */,
+				969FEDE227B60E5E00D99258 /* VaccineView.swift */,
+				969FEDE427B60E6E00D99258 /* ListVaccineView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +206,18 @@
 				969FEDE727B60EB800D99258 /* EmployeeListView.swift in Sources */,
 				969FEDE527B60E6E00D99258 /* ListVaccineView.swift in Sources */,
 				969FEDE327B60E5E00D99258 /* VaccineView.swift in Sources */,
+				969FEDF827B7880000D99258 /* UserEntity+CoreDataClass.swift in Sources */,
+				969FEDFA27B7881300D99258 /* UserEntity+CoreDaraProperties.swift in Sources */,
+				969FEDFC27B78A4400D99258 /* DatabaseManager.swift in Sources */,
+				969FEDF527B784D900D99258 /* LoginController.swift in Sources */,
+				969FEDE927B781B800D99258 /* ViewController.swift in Sources */,
 				969FEDCF27B602A000D99258 /* Persistence.swift in Sources */,
+				969FEE0527B8140000D99258 /* EmployeeViewController.swift in Sources */,
+				969FEE0327B8119600D99258 /* ListEmployeesViewController.swift in Sources */,
 				969FEDC627B6029E00D99258 /* Employee_VaccinationsApp.swift in Sources */,
 				969FEDD927B6037A00D99258 /* LoginView.swift in Sources */,
 				969FEDDF27B60DF900D99258 /* EmployeeView.swift in Sources */,
+				969FEDF227B783EE00D99258 /* VaccineOptions.swift in Sources */,
 				969FEDD227B602A000D99258 /* Employee_Vaccinations.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
